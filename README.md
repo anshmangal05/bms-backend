@@ -4,7 +4,7 @@ A Spring Boot based event-driven backend system designed to manage customer book
 
 This system follows microservice-friendly architecture principles and demonstrates real-world backend engineering concepts.
 
-# 📖 Project Theory
+#  Project Theory
 
 The Booking Management System (BMS) is built using an event-driven architecture.
 
@@ -45,7 +45,7 @@ Database (MongoDB)
 
 ---
 
-##  Policy Update Flow
+## Policy Update Flow
 
 1. Client sends policy update request.
 2. Service generates PolicyUpdateEvent.
@@ -56,7 +56,7 @@ Database (MongoDB)
 
 ---
 
-# 📨 Kafka Event Flow
+#  Kafka Event Flow
 
 Kafka Topics Used:
 - policy-add
@@ -73,7 +73,7 @@ Consumer:
 
 ---
 
-# 🧠 Why Event-Driven Architecture?
+# Why Event-Driven Architecture?
 
 Traditional synchronous calls create tight coupling.
 
@@ -91,7 +91,7 @@ This architecture is suitable for:
 
 ---
 
-# 🚀 Tech Stack
+#  Tech Stack
 
 - Java 17
 - Spring Boot 3
@@ -100,7 +100,7 @@ This architecture is suitable for:
 - Maven
 - Lombok
 
-# 📂 Project Structure
+#  Project Structure
 
 com.example.bms
 │
