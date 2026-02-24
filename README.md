@@ -124,7 +124,3 @@ com.example.bms
 - Dependency Injection
 - Separation of Concerns
 
-
----
-
-⭐ Star this repository if you found it helpful!
